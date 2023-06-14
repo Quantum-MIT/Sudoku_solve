@@ -8,6 +8,8 @@ there is only one valid solution for a Sudoku.
 the representation of that Sudoku in python would be the following -
 [[4,3,5,2,6,9,7,8,1],[6,8,2,5,7,1,4,9,3],[1,9,7,8,3,4,...],...]
 
+![alt text](fig2.png)
+
 FUNCTIONS:
 1. get_block_num(sudoku:List[List[int]], pos:Tuple[int, int]) -> int:
 This function takes two parameters position and sudoku and returns the block number of the

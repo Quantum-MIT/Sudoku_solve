@@ -113,15 +113,15 @@ true if a Sudoku can be solved i.e. after filling all the empty positions the Su
 and also returns the solved Sudoku.
 Algorithm 1 Solve Sudoku
 Require: sudoku : List[List[int]]
->>while Unassigned position exists do
->>Get the candidates at that position
->>for Each candidate do
->>Make move
->>Recursively solve for the Sudoku after making move
->>if Sudoku not solved then
->>Undo Move
->>end if
->>end for
->>end while
+#while Unassigned position exists do
+#Get the candidates at that position
+#for Each candidate do
+#Make move
+#Recursively solve for the Sudoku after making move
+#if Sudoku not solved then
+#Undo Move
+#end if
+#end for
+#end while
 
 Dependencies: get_candidates(), find_first_unassigned_position(), make_move(), undo_move()

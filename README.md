@@ -11,6 +11,8 @@ the representation of that Sudoku in python would be the following -
 ![alt text](fig2.png)
 ![alt text](fig4.png)
 ![alt text](fig6.png)
+
+
 FUNCTIONS:
 1. get_block_num(sudoku:List[List[int]], pos:Tuple[int, int]) -> int:
 This function takes two parameters position and sudoku and returns the block number of the
